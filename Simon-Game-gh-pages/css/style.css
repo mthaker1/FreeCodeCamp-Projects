@@ -1,0 +1,101 @@
+/* Import the Oswald font in CSS for further styling */
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|VT323|Oswald');
+
+body{
+  background-image: url("http://media.istockphoto.com/photos/abstract-gradient-background-with-blue-and-green-colors-picture-id498785161?k=6&m=498785161&s=612x612&w=0&h=nqVpcBpmRKVlT3Ve3Zs58EZj_6d1iTVzO9jYLlmg6cM=");
+  
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.circle {
+    border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  opacity: .4;
+  font-family: 'Orbitron', sans-serif;
+  color:black;
+  font-weight: bold;
+}
+
+#red{
+  
+  background-color:red;
+  margin-left:680px;
+  display:block;
+}
+
+#green{
+  margin-left: 442px;
+  margin-right: -340px;
+  background-color:green;
+}
+
+#yellow{
+   margin-left: 40px;
+  background-color: yellow;
+}
+
+#blue{
+   
+  background-color:blue;
+  margin:auto;
+  display:block;
+}
+
+
+.text-container{
+  
+  width:200;
+  margin-left: 375px;
+  
+}
+
+.circle:hover {
+      opacity: 1;
+}
+
+h1{
+  font-family: 'Russo One', sans-serif;
+
+}
+
+#count{
+  font-family: 'VT323', monospace;
+  color : red;
+  font-size : 2em;
+  width : 50px;
+  background-color: black;
+  position:relative;
+  border : 2.5px solid black;
+  border-radius : 10px;
+  margin:auto;
+}
+
+.boxButtons{
+  border-radius: 10px;
+  height:50px;
+  width:100px;
+}
+
+.label{
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px;
+}
+
+#displayCorner{
+   font-family: 'VT323', monospace;
+  color : red;
+  font-size : 2em;
+  width : 200px;
+  background-color: black;
+  position:relative;
+  border : 2.5px solid black;
+  border-radius : 10px;
+  margin-left: 465px;
+  height: 60px;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}

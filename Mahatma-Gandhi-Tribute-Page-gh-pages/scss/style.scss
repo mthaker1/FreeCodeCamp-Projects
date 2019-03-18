@@ -1,0 +1,16 @@
+// Some designing including image , background colour and font
+
+$blue: #a3d5d3;
+
+body {
+  background-color: $blue;
+  font-family : Times New Roman;
+}
+
+#gandhi_image{
+  width: 500px;
+  margin-bottom : 25px;
+}
+figcaption{
+  margin-bottom : 25px;
+}

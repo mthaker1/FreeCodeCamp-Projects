@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Calculator</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!-- Import the Titan One font from google -->
+<link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
+
+
+<!-- Title on top of the calculator -->
+<div class = "text-center">
+  <h1>JavaScript &nbsp Calculator</h1>
+  <h2> By: Manas Thaker </h2>
+  <br/>
+  <br/>
+</div> 
+
+<!--Have an output box to display the results of the calculations -->
+
+<div id = "outputCalc">
+  
+  <span id = "instruct">0</span>
+  <hr/>
+ 
+</div> 
+ <!-- Sort all the buttons in the correct places -->
+<div class = "text-center" id = "calculator">
+ 
+  <btn class = "btn btn-danger" id = "AC">AC</btn>
+  <btn class = "btn btn-danger" id = "CE">CE</btn>
+  <btn class = "btn btn-primary" id = "/">÷</btn>
+  <btn class = "btn btn-primary" id = "*">x</btn>
+  
+  <br/>
+  
+  <btn class = "btn btn-primary" id = "7">7</btn>
+  <btn class = "btn btn-primary" id = "8">8</btn>
+  <btn class = "btn btn-primary" id = "9">9</btn>
+  <btn class = "btn btn-primary" id = "-">-</btn>
+  
+  <br/>
+  
+  <btn class = "btn btn-primary" id = "4">4</btn>
+  <btn class = "btn btn-primary" id = "5">5</btn>
+  <btn class = "btn btn-primary" id = "6">6</btn>
+  <btn class = "btn btn-primary" id = "+">+</btn>
+  
+  <br/>
+  <div class = "moveRight">
+  <btn class = "btn btn-primary" id = "1">1</btn>
+  <btn class = "btn btn-primary" id = "2">2</btn>
+  <btn class = "btn btn-primary" id = "3">3</btn>
+  
+  
+  <br/>
+    <!-- Deal with different button sizes by providing different classes -->
+  <btn class = "btn btn-primary longButton zero" id = "0">0</btn>
+  <btn class = "btn btn-primary decimal" id = ".">.</btn>
+  <btn class = "btn btn-primary tallButton" id = "equal">=</btn>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!-- Import the following google fonts to ensure that our project looks pretty -->
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+
+
+<br/><br/><!-- Red Circle -->
+<div class = "row">
+<button class = "circle btn btn-primary myBtns" id = "red">RED</button>
+
+<h2 id = "displayCorner"></h2>
+</div>
+<br/>
+
+<!-- Green Circle and Title and Yellow Circle-->
+<div class = "oneLine row text-center">
+<button class = "circle btn btn-primary myBtns" id = "green">GREEN</button>
+<div class = "text-container">
+  <h1>Simon</h1>
+  <h2 id = "count">__</h2>
+  <h5 class="label">Count</h5>
+  <button class = "btn btn-primary boxButtons" id = "start">Start</button>
+  <button class = "btn btn-primary boxButtons" id = "strict">Strict ON</button>
+</div> 
+<button class = "circle btn btn-primary myBtns" id = "yellow">YELLOW</button>
+  <br>
+</div>
+
+
+<br/>
+
+
+<!-- Blue Button -->
+<button class = "circle btn btn-primary myBtns" id = "blue">BLUE</button>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

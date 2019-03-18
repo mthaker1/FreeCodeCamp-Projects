@@ -1,0 +1,65 @@
+body{
+  background-color: rgb(34, 50, 76)
+}
+
+h1{
+  color: orange;
+  font-family: "Times New Roman";
+  font-size: 50px;
+}
+
+p{
+  color: red;
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-size: 23px;
+}
+
+button{
+  background-color: Green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+a{
+  background-color: Green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.quotes{
+  background-color: red;
+  width:33%;
+  margin-right: auto;
+  margin-left: auto;
+  border-color:white;
+  border-style: solid;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 20px;
+  height:auto;
+  text-align: center;
+  color: white;
+  
+}
+
+.quote{
+  font-size: 30px;
+}
+
+.author{
+  font-size: 20px;
+  font-style: Italic;
+}
+
+#twitterIcon{
+  background-color: blue;
+}

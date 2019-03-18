@@ -1,0 +1,85 @@
+body{
+  background: black;
+}
+
+h1{
+  color: orange;
+  font-family: 'Titan One', cursive;
+  font-size: 50px;
+}
+
+h2{
+  color: red;
+}
+
+#outputCalc{
+  background-color:white;
+  width : 250px;
+  height : 75px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin: auto;
+  padding-top:20px;
+  background-color:grey;
+}
+
+#calculator{
+  
+  width: 250px;
+  background-color:yellow;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-bottom-left-radius: 2.0em;
+  border-bottom-right-radius: 2.0em;
+  margin: auto;
+}
+
+#instruct{
+  font-size: 2em;
+  padding-left: 50px;
+}
+
+btn{
+  margin: 5px;
+  width: 2.7vw;
+  height: 2.7vw;
+  
+}
+
+.btn-danger{
+  text-align: left;
+  padding: 9px 5px 5px 9px;
+}
+
+/*Style the different button sizes accordingly*/
+.longButton{
+  width: 100px;
+}
+
+
+.tallButton {
+  position: absolute;
+  margin-left: 12px;
+  margin-top: -50px;
+  height: 100px;
+  text-align: center;
+  padding-top: 35px;
+  
+}
+
+.moveRight{
+  margin-left: -55px;
+}
+
+.decimal{
+  margin-right: 1px;
+}
+
+.zero{
+  margin-left: -3px;
+}
+
+#equal{
+  margin-down:-5px; 
+  
+}
